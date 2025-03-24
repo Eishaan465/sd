@@ -1,35 +1,25 @@
-body {
-    background-color:rgb(0, 0, 0);
-    background-image:url(backrrr.jpg);
-    background-size:cover;
-    
-    
+@font-face {
+    font-family: Valentine;
+    src: url(Valentine.otf);
 }
 
+.class {
+    color: #9932CC; /* DarkOrchid */
+}
 
-
+body {
+    font-family: Valentine;
+    background-color: #002020; /* Adjusted the background color to a valid hex code */
+    background-image: url(backrrr.jpg);
+    background-size: cover;
+}
 
 h1 {
- 
-    color:DarkOrchid;
-
-}
-
-
-
-
-h2 {  
-   
-    color:DarkViolet;
-   
+    
+    color: #9400D3; /* DarkViolet */
 }
 
 
 h3 {
-    
-color:rgb(255, 0, 255);
-
-
-
-    
+    color: #FF00FF; /* rgb(255, 0, 255) is magenta, which is #FF00FF in hex */
 }
